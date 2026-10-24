@@ -1,0 +1,30 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- Віртуальне середовище ----
+.venv/
+venv/
+env/
+
+# ---- Результати запусків / тестові дані (не комітимо) ----
+output.txt
+*.out
+# приклад input.txt лишаємо в репозиторії, а локальні чернетки — ні:
+input.local.txt
+inputs/
+
+# ---- IDE / редактор ----
+.vscode/
+!.vscode/launch.json      # лишаємо конфіг запуску, якщо захочеш його комітити
+.idea/
+*.swp
+
+# ---- ОС ----
+.DS_Store
+Thumbs.db
