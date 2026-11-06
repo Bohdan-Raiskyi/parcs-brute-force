@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Паралельний Brute-force для зламу паролів на базі системи PARCS-Python.
 
